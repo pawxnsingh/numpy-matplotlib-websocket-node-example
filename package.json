@@ -1,0 +1,17 @@
+{
+  "name": "new-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.14",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "metacall": "^0.4.3",
+    "ws": "^8.18.0"
+  }
+}
