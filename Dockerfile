@@ -4,7 +4,7 @@ WORKDIR /metacall
 
 # intall curl and metacall
 RUN apk add curl \
-	&& curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | sh
+    && curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | sh
 
 COPY requirements.txt ./
 COPY package.json package-lock.json ./
@@ -16,7 +16,7 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ['metacall','index.js']
+CMD ["metacall","index.js"]
 
 
 

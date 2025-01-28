@@ -21,8 +21,6 @@ const server = app.listen(port, () =>
 
 const wss = new WebSocketServer({ server });
 
-console.log(`WebSocket server running on ws://localhost:${port}`);
-
 wss.on("connection", (ws, req) => {
     console.log("Client connected");
     ws.on("error", console.error);
