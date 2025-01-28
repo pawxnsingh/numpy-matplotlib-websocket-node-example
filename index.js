@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const server = app.listen(port, () =>
-    console.log(`ws server is listening on http://localhost:${port}`)
+    console.log(`ws server is listening on ws://localhost:${port}`)
 );
 
 const wss = new WebSocketServer({ server });
