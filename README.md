@@ -2,6 +2,11 @@
 
 In this example we show how to use Numpy and Matplotlib (Python) from an WebSocket server (NodeJS) in order to build a **Polyglot Data Analysis and Visualization API**.
 
+<div align="center">
+  <a href="" target="_blank">
+  <img src="./resources/image.png" alt="Polyglot Visuals" style="max-width:100%; margin: 0 auto;" width="600" height="auto"></a>
+</div>
+
 ## Install
 
 Clone the repository:
@@ -50,6 +55,11 @@ It should output something like:
 ```
 output: look for the output folder for the visualized view
 ```
+
+<div align="center">
+  <a href="" target="_blank">
+  <img src="./resources/analysis_visualization.png" alt="Polyglot Visuals" style="max-width:100%; margin: 0 auto;" width="600" height="auto"></a>
+</div>
 
 ## Docker
 
